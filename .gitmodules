@@ -4,3 +4,9 @@
 [submodule "awesome/anthropics-skills"]
 	path = awesome/anthropics-skills
 	url = git@github.com:anthropics/skills.git
+[submodule "awesome/google-lab-stitch-skills"]
+	path = awesome/google-lab-stitch-skills
+	url = git@github.com:google-labs-code/stitch-skills.git
+[submodule "awesome/jeffallan-skills"]
+	path = awesome/jeffallan-skills
+	url = git@github.com:Jeffallan/claude-skills.git
