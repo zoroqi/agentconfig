@@ -1,0 +1,18 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "enablePermanentToolApproval": true
+  },
+  "ui": {
+    "theme": "Dracula"
+  },
+  "general": {
+    "previewFeatures": true,
+    "vimMode": false
+  },
+  "experimental": {
+    "skills": true
+  }
+}

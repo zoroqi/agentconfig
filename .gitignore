@@ -1,0 +1,19 @@
+oauth_creds.json
+mcp-oauth-tokens-v2.json
+google_accounts.json
+installation_id
+state.json
+*.orig
+tmp/
+
+# gemini 配置使用白名单逻辑
+gemini/*
+
+!gemini/settings.json
+!gemini/GEMINI.md
+!gemini/skills
+
+!gemini/policies/
+gemini/policies/*
+!gemini/policies/auto-saved.toml
+
