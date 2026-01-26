@@ -39,6 +39,12 @@ commandPrefix = [ "coca", "ast-grep", "jq", "graphviz" ]
 toolName = "run_shell_command"
 decision = "allow"
 priority = 100
+commandPrefix = [ "git status", "git show", "git diff", "git log", "git add", "git commit" ]
+
+[[rule]]
+toolName = "run_shell_command"
+decision = "allow"
+priority = 100
 commandPrefix = [ "go", "java", "mvn" ]
 
 [[rule]]
