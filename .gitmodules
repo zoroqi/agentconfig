@@ -10,3 +10,6 @@
 [submodule "awesome/jeffallan-skills"]
 	path = awesome/jeffallan-skills
 	url = git@github.com:Jeffallan/claude-skills.git
+[submodule "awesome/single/code-review-expert"]
+	path = awesome/single/code-review-expert
+	url = git@github.com:sanyuan0704/code-review-expert.git
