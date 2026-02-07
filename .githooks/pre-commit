@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# 設定腳本路徑和要檢查的目錄
+SCRIPT_PATH="./check_symlinks.sh"
+TARGET_DIR="./skills"  # 這裡換成你想檢查的特定目錄
+
+# 檢查腳本是否存在
+if [ ! -f "$SCRIPT_PATH" ]; then
+    echo "Git Hook 警告: 找不到檢查腳本 $SCRIPT_PATH"
+    exit 1
+fi
+
+# 執行檢查腳本
+# "$TARGET_DIR" 是傳給 check_symlinks.sh 的第一個參數 ($1)
+"$SCRIPT_PATH" "$TARGET_DIR"
+
+# 獲取腳本的退出碼
+RESULT=$?
+
+# 如果退出碼不為 0，Git 會自動阻止 commit
+exit $RESULT

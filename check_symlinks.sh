@@ -33,3 +33,11 @@ done
 
 echo "----------------------------------------"
 echo "总计: 有效 $valid_count 个, 损坏 $broken_count 个"
+
+# 新增邏輯：如果有損壞的連結，返回錯誤碼 1
+if [ "$broken_count" -gt 0 ]; then
+    echo "錯誤：檢測到失效的軟鏈接，提交已終止。"
+    exit 1
+fi
+
+exit 0
