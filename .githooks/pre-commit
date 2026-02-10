@@ -2,7 +2,7 @@
 
 # 設定腳本路徑和要檢查的目錄
 SCRIPT_PATH="./check_symlinks.sh"
-TARGET_DIR="./skills"  # 這裡換成你想檢查的特定目錄
+TARGET_DIR="./skills"
 
 # 檢查腳本是否存在
 if [ ! -f "$SCRIPT_PATH" ]; then

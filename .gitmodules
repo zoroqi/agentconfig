@@ -13,3 +13,9 @@
 [submodule "awesome/single/code-review-expert"]
 	path = awesome/single/code-review-expert
 	url = git@github.com:sanyuan0704/code-review-expert.git
+[submodule "awesome/single/humanizer"]
+	path = awesome/single/humanizer
+	url = git@github.com:blader/humanizer.git
+[submodule "awesome/knowledge-work-plugins"]
+	path = awesome/knowledge-work-plugins
+	url = git@github.com:anthropics/knowledge-work-plugins.git
