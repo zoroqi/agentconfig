@@ -5,6 +5,7 @@ installation_id
 state.json
 *.orig
 tmp/
+ignored_list
 
 # gemini 配置使用白名单逻辑
 gemini/*
