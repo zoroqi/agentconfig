@@ -22,3 +22,6 @@
 [submodule "awesome/single/gemini-skills"]
 	path = awesome/single/gemini-skills
 	url = git@github.com:google-gemini/gemini-skills.git
+[submodule "awesome/single/jb-go-modern-guidelines"]
+	path = awesome/single/jb-go-modern-guidelines
+	url = git@github.com:JetBrains/go-modern-guidelines.git
