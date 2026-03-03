@@ -9,7 +9,7 @@ if [ ! -d "$dir" ]; then
     exit 1
 fi
 
-echo "扫描目录: $dir"
+echo "軟鏈掃描: $dir"
 echo "----------------------------------------"
 
 broken_count=0

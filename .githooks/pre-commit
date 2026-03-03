@@ -1,21 +1,40 @@
 #!/bin/bash
 
 # 設定腳本路徑和要檢查的目錄
-SCRIPT_PATH="./check_symlinks.sh"
+CHECK_SYMLINK_SCRIPT="./check_symlinks.sh"
+CHECK_SKILL_MD_SCRIPT="./check_skill_md.sh"
 TARGET_DIR="./skills"
 
 # 檢查腳本是否存在
-if [ ! -f "$SCRIPT_PATH" ]; then
-    echo "Git Hook 警告: 找不到檢查腳本 $SCRIPT_PATH"
+if [ ! -f "$CHECK_SYMLINK_SCRIPT" ]; then
+    echo "Git Hook 警告: 找不到檢查腳本 $CHECK_SYMLINK_SCRIPT"
+    exit 1
+fi
+
+# 檢查 SKILL.md 腳本是否存在
+if [ ! -f "$CHECK_SKILL_MD_SCRIPT" ]; then
+    echo "Git Hook 警告: 找不到檢查腳本 $CHECK_SKILL_MD_SCRIPT"
     exit 1
 fi
 
 # 執行檢查腳本
-# "$TARGET_DIR" 是傳給 check_symlinks.sh 的第一個參數 ($1)
-"$SCRIPT_PATH" "$TARGET_DIR"
-
-# 獲取腳本的退出碼
+# 執行軟鏈接檢查腳本
+"$CHECK_SYMLINK_SCRIPT" "$TARGET_DIR"
 RESULT=$?
 
-# 如果退出碼不為 0，Git 會自動阻止 commit
-exit $RESULT
+if [ $RESULT -ne 0 ]; then
+    exit $RESULT
+fi
+
+echo ""
+
+# 執行 SKILL.md 檢查腳本
+"$CHECK_SKILL_MD_SCRIPT" "$TARGET_DIR"
+RESULT=$?
+
+if [ $RESULT -ne 0 ]; then
+    exit $RESULT
+fi
+
+# 所有檢查通過
+exit
