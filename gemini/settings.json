@@ -18,6 +18,7 @@
     }
   },
   "experimental": {
-    "skills": true
+    "skills": true,
+    "plan": true
   }
 }
