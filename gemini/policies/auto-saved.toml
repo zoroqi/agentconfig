@@ -29,7 +29,8 @@ commandPrefix = [
   "tree",
   "head",
   "tail",
-  "mv"
+  "mv",
+  "date"
 ]
 
 [[rule]]
@@ -55,7 +56,15 @@ commandPrefix = [
 toolName = "run_shell_command"
 decision = "allow"
 priority = 100
-commandPrefix = [ "go", "java", "mvn", "golangci-lint", "python", "python3", "node" ]
+commandPrefix = [
+  "go",
+  "java",
+  "mvn",
+  "golangci-lint",
+  "python",
+  "python3",
+  "node"
+]
 
 [[rule]]
 toolName = "activate_skill"
