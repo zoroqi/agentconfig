@@ -25,3 +25,6 @@
 [submodule "awesome/single/jb-go-modern-guidelines"]
 	path = awesome/single/jb-go-modern-guidelines
 	url = git@github.com:JetBrains/go-modern-guidelines.git
+[submodule "awesome/garrytan_gstack"]
+	path = awesome/garrytan_gstack
+	url = git@github.com:garrytan/gstack.git
