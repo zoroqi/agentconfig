@@ -28,3 +28,6 @@
 [submodule "awesome/garrytan_gstack"]
 	path = awesome/garrytan_gstack
 	url = git@github.com:garrytan/gstack.git
+[submodule "awesome/addyosmani-agent-skills"]
+	path = awesome/addyosmani-agent-skills
+	url = git@github.com:addyosmani/agent-skills.git
