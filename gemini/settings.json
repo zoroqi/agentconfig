@@ -15,15 +15,20 @@
       "warningAcknowledged": true,
       "enabled": true,
       "maxAge": "30d"
+    },
+    "plan": {
+      "enabled": true
     }
   },
   "experimental": {
-    "skills": true,
-    "plan": true
+    "skills": true
   },
   "skills": {
     "disabled": [
       "writing-skills"
     ]
+  },
+  "agents": {
+    "overrides": {}
   }
 }

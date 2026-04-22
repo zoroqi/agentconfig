@@ -71,3 +71,23 @@ toolName = "activate_skill"
 decision = "allow"
 priority = 100
 
+[[rule]]
+decision = "allow"
+priority = 950
+toolName = "enter_plan_mode"
+modes = [ "default", "autoEdit", "yolo" ]
+
+[[rule]]
+decision = "allow"
+priority = 950
+toolName = "run_shell_command"
+commandPrefix = [ "echo", "md5" ]
+modes = [ "autoEdit", "yolo" ]
+
+[[rule]]
+decision = "allow"
+priority = 950
+toolName = "run_shell_command"
+commandPrefix = [ "cat" ]
+allowRedirection = true
+modes = [ "autoEdit", "yolo" ]
