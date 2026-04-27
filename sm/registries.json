@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "registries": [
+    {
+      "name": "Jeffallan_claude-skills",
+      "url": "git@github.com:Jeffallan/claude-skills.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/Jeffallan_claude-skills",
+      "last_updated": "2026-04-27T19:45:39+08:00"
+    },
+    {
+      "name": "addyosmani_agent-skills",
+      "url": "git@github.com:addyosmani/agent-skills.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/addyosmani_agent-skills",
+      "last_updated": "2026-04-27T19:40:03+08:00"
+    },
+    {
+      "name": "affaan-m_everything-claude-code",
+      "url": "git@github.com:affaan-m/everything-claude-code.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/affaan-m_everything-claude-code",
+      "last_updated": "2026-04-27T19:46:55+08:00"
+    },
+    {
+      "name": "anthropics_skills",
+      "url": "git@github.com:anthropics/skills.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/anthropics_skills",
+      "last_updated": "2026-04-27T19:39:43+08:00"
+    },
+    {
+      "name": "garrytan_gstack",
+      "url": "git@github.com:garrytan/gstack.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/garrytan_gstack",
+      "last_updated": "2026-04-27T19:41:13+08:00"
+    },
+    {
+      "name": "obra_superpowers",
+      "url": "git@github.com:obra/superpowers.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/obra_superpowers",
+      "last_updated": "2026-04-27T19:39:09+08:00"
+    },
+    {
+      "name": "tw93_Waza",
+      "url": "git@github.com:tw93/Waza.git",
+      "local_path": "$SKILL_MANAGER_REGISTER_PATH/tw93_Waza",
+      "last_updated": "2026-04-27T19:43:03+08:00"
+    }
+  ]
+}

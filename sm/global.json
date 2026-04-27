@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "scope": "global",
+  "active_skills": [],
+  "active_groups": [
+    {
+      "name": "superpowers",
+      "agents": [
+        "gemini"
+      ]
+    }
+  ]
+}

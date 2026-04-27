@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "groups": [
+    {
+      "name": "golang",
+      "description": "",
+      "skill_ids": [
+        "72b2c12a21f7d5e223b3ba62097c2d5f",
+        "0914454333a5c6588c96fd3ae03a4fcb",
+        "ce0cbecc6ad9bd101db213814ef08c62"
+      ]
+    },
+    {
+      "name": "superpowers",
+      "description": "",
+      "skill_ids": [
+        "48c1ae564bf369e1067ece0826a25c62",
+        "860d83b698964a8b7c551f5557443e23",
+        "de9a0064f83626b03382275aa5d4f35c"
+      ]
+    }
+  ]
+}

@@ -18,3 +18,10 @@ gemini/*
 gemini/policies/*
 !gemini/policies/auto-saved.toml
 
+sm/*
+!sm/global.json
+!sm/groups.json
+!sm/registries.json
+
+awesome/
+skills
