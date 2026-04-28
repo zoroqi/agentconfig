@@ -24,4 +24,6 @@ sm/*
 !sm/registries.json
 
 awesome/
-skills
+!awesome/.gitkeep
+skills/
+!skills/.gitkeep
