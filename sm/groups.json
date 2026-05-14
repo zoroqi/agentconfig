@@ -11,13 +11,22 @@
       ]
     },
     {
+      "name": "microsoft_office",
+      "description": "",
+      "skill_ids": [
+        "4af4ee50bfada647dc055423f08cbcaf",
+        "2142702a59aff2dcaf5579b912c87fb8",
+        "1a276e343ba06296bdbfaa052c67345d",
+        "8e52a01559974109ca8ef76db1555a4a"
+      ]
+    },
+    {
       "name": "superpowers",
       "description": "",
       "skill_ids": [
         "48c1ae564bf369e1067ece0826a25c62",
         "860d83b698964a8b7c551f5557443e23",
-        "de9a0064f83626b03382275aa5d4f35c",
-        "16012d823ac933d28a7173c93e2f16d2"
+        "de9a0064f83626b03382275aa5d4f35c"
       ]
     }
   ]

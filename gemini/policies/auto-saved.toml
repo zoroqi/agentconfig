@@ -90,4 +90,4 @@ priority = 950
 toolName = "run_shell_command"
 commandPrefix = [ "cat" ]
 allowRedirection = true
-modes = [ "autoEdit", "yolo" ]
+modes = [ "plan", "default", "autoEdit", "yolo" ]
