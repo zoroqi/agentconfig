@@ -32,7 +32,8 @@
     },
     "plan": {
       "enabled": true
-    }
+    },
+    "enableNotifications": true
   },
   "experimental": {
     "skills": true
